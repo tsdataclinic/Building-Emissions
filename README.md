@@ -13,18 +13,18 @@ With these data assets in place, the [analysis notebook](https://github.com/tsda
 
 # Directory Structure
 
-covid-energy-burden/
-├── LICENSE
-├── README.md                     <- The top-level README for developers using this project
-│
-├── data                          <- Folder where the intermediate data files are stores
-│   ├── shapefiles                <- Folder containing census shapefiles
-│   ├── buildings_CD.csv          <- MapPLUTO building level data tagged with each building's community district
-│   ├── CD_census.csv             <- Census estimates of community district demographics
-│   ├── CD_building_info          <- Average EnergyStar scores, apartment size, and year build by community district
-│   └── cd_names.txt              <- Mapping between community district names and id number
-│
-├── src
-│   ├── areal_interpolation.py    <- Utility functions used to calculate the demographics of each community district
-│   ├── get_census.py             <- Script to download census data and create community district estimates
-│   ├── get_census_geo.py           <- Script to download required census shapefiles
+    covid-energy-burden/
+    ├── LICENSE
+    ├── README.md                     <- The top-level README for developers using this project
+    │
+    ├── data                          <- Folder where the intermediate data files are stores
+    ├── shapefiles                <- Folder containing census shapefiles
+    ├── buildings_CD.csv          <- MapPLUTO building level data tagged with each building's community district
+    ├── CD_census.csv             <- Census estimates of community district demographics
+    ├── CD_building_info          <- Average EnergyStar scores, apartment size, and year build by community district
+    └── cd_names.txt              <- Mapping between community district names and id number
+
+    ├── src
+    ├── areal_interpolation.py    <- Utility functions used to calculate the demographics of each community district
+    ├── get_census.py             <- Script to download census data and create community district estimates
+    ├── get_census_geo.py           <- Script to download required census shapefiles
