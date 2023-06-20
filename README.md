@@ -7,9 +7,9 @@ New York City has passed some of the most ambitious regulations on building-rela
 
 The analyses in this repository rely on several open datasets. We load each building's EnergyStar rating from a [file](https://raw.githubusercontent.com/NYCDOB/LocalLaw97/gh-pages/data/LL3320220609.json) posted on the [GitHub page](https://github.com/NYCDOB/LocalLaw97) for NYC's department of buildings. We link these records to [NYC's MapPLUTO database](https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page) to learn more about the buildings, including information about which buildings are primarily residential and basic facts about the buildings such as size and age.
 
-We use the geographic coordinates provided by MapPLUTO to identify which of [NYC's community districts](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4) each building falls within. Using data from the US Census's American Community Survey (accessed via the [censusdis](https://github.com/vengroff/censusdis/issues) python package), we calculate interpolated estimates of the demographics within each district.
+We use the geographic coordinates provided by MapPLUTO to identify which of [NYC's community districts](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4) each building falls within. Using data from the US Census's American Community Survey (accessed via the [censusdis](https://github.com/vengroff/censusdis/issues) python package), we calculate interpolated estimates of the demographics within each district. We then calculate the average score, apartment size, and building age in each community district.
 
-With these data assets in place, the [analysis notebook](https://github.com/tsdataclinic/Building-Emissions/blob/main/notebooks/blog_figures.ipynb) calculates the average score in each neighborhood and provides the visualization used in the blog post. 
+With these data assets in place, the [analysis notebook](https://github.com/tsdataclinic/Building-Emissions/blob/main/notebooks/blog_figures.ipynb) calculates the tables and visualizations used in the blog post. 
 
 # Directory Structure
 
