@@ -13,7 +13,7 @@ With these data assets in place, the [analysis notebook](https://github.com/tsda
 
 # Directory Structure
 
-    covid-energy-burden/
+    building-emissions/
     ├── LICENSE
     ├── README.md                     <- The top-level README for developers using this project
     │
