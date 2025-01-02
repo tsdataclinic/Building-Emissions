@@ -1,3 +1,6 @@
+# DEPRECATED
+This repository is no longer under development.
+
 # Building-Emissions
 NYC Building Emissions Analysis
 
