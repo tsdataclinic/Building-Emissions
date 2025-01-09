@@ -1,5 +1,4 @@
-# DEPRECATED
-This repository is no longer under development.
+**This project is no longer maintained by Two Sigma. We continue to encourage independent development.**
 
 # Building-Emissions
 NYC Building Emissions Analysis
